@@ -1,0 +1,11 @@
+customers
+- id, first, last, city, street, state, zip
+products
+-id, name, description, price, quantity
+orders
+-id, customer_id, date_ordered, date_delivered, total
+product_orders
+-product_id, customer_id, quantity
+phonenumbers
+-id, customer_id, phone_number
+ERD

@@ -1,0 +1,10 @@
+Social Media App Outline
+
+Users
+-user_id, user_name, first_name, last_name, email, password
+
+Posts
+-post_id, post_title, post, post_timestamp - FK: user_id
+
+Comments
+-comment_id, comment, comment_timestamp - FK: user_id, FK: post_id
